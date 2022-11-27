@@ -24,8 +24,20 @@
     font-size: 14px;
 }
 
+p{
+    margin-left: 10px;
+}
+
+img{
+    margin-left: 8px;
+} 
+
+.maria{
+    margin-left: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
 .contactos {
-    background-color: red;
     flex: 0 0 20%;
     display: flex;
     flex-direction: column;
@@ -35,12 +47,14 @@
     flex: 0 0 7.5%;
     background-color: #fff;
     display: flex;
-    justify-content: space-between;
-    
 }
 
 .icono{
     font-size: 16px;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contactos_nuevo_chat {
@@ -59,6 +73,8 @@
 .contact{
     border:solid 1px #E8EBE4;
     display: flex;
+    font-family: 'Open Sans', sans-serif;
+    padding: 1.4%;
 }
 
 .principal {
@@ -104,6 +120,12 @@
 .informacion_profile{
     display: flex;
     flex-direction: column;
+}
+
+.status-w-app{
+    color: #828485;
+    margin-left: 10px;
+    font-size: 12px;
 }
 
 .principal_logo img {
