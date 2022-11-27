@@ -95,7 +95,15 @@
     height: 33px;
 }
 
+.profile{
+    display: flex;
+    
+}
 
+.informacion_profile{
+    display: flex;
+    flex-direction: column;
+}
 
 .principal_logo img {
     width: 250px;
