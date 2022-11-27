@@ -11,6 +11,19 @@
     height: 100vh;
 }
 
+.contenedor{
+    background-color: #A491D2;
+    margin: 16%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
 .contactos {
     background-color: red;
     flex: 0 0 20%;
@@ -21,7 +34,13 @@
 .contactos_estado_usuario {
     flex: 0 0 7.5%;
     background-color: #fff;
+    display: flex;
+    justify-content: space-between;
     
+}
+
+.icono{
+    font-size: 16px;
 }
 
 .contactos_nuevo_chat {
