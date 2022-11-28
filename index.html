@@ -1,142 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flexbox</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
     <div class="contenedor_principal">
-        <!-- Contactos -->
-        <div class="contactos">
-            <div class="contactos_estado_usuario">
-                <div class="profile">
-                    <img class="foto_perfil" src="./assets/img/maria.jpg" alt="imagen del perfil usuario">
-                    <div class="informacion_profile">
-                        <br><p class="maria">Maria</p><br>
-                        <span class="status-w-app">
-                            Activa ahora
-                        </span>
-                    </div>
-                </div>
-                <div class="iconos_menu">
-                    <!--icono de mensaje-->
-                    <i class="iconos fa-regular fa-message"></i>
-
-                    <!--icono de barra de menu-->
-                    <i class="iconos fa-solid fa-bars"></i>
-                </div>
+      <!-- Contactos -->
+      <div class="contactos">
+        <div class="contactos_estado_usuario">
+          <div class="profile">
+            <img
+              class="foto_perfil"
+              src="./assets/img/maria.jpg"
+              alt="imagen del perfil usuario"
+            />
+            <div class="informacion_profile">
+              <br />
+              <p class="maria">Maria</p>
+              <br />
+              <span class="status-w-app"> Activa ahora </span>
             </div>
-            
-            <div class="contactos_nuevo_chat">
-                <div class="contenedor">
-                    <p class="new_chat">Nuevo Chat</p>
-                </div>
-            </div>
+          </div>
+          <div class="iconos_menu">
+            <!--icono de mensaje-->
+            <i class="iconos fa-regular fa-message"></i>
 
-            <div class="contactos_contactos">
-                <!--Contacto #1-->
-                <div class="contact">
-                    <img class="foto_perfil" src="./assets/img/Screen Shot 2018-11-28 at 15.27.14.jpg" alt="foto perfil de Juanita">
-                    <p>
-                        Juanita<br>
-                        <span>At vero eos et accusa</span>
-                    </p>
-                </div>
-                <!--Contacto #2-->
-                <div class="contact">
-                    <img class="foto_perfil" src="./assets/img/Screen Shot 2018-11-28 at 15.32.16.jpg" alt="foto perfil de Alberto">
-                    <p>
-                        Alberto<br>
-                        <span>blanditiis praesentium</span>
-                    </p>
-                </div>
-
-                <!--Contacto #3-->
-                <div class="contact">
-                    <img class="foto_perfil" src="./assets/img/Screen Shot 2018-11-28 at 15.30.34.jpg" alt="foto perfil de Ignacio">
-                    <p>
-                        Ignacio<br>
-                        <span>officiis debitis aut</span>
-                    </p>
-                </div>
-
-                <!--Contacto #4-->
-                <div class="contact">
-                    <img class="foto_perfil" src="./assets/img/Screen Shot 2018-11-28 at 15.28.30.jpg" alt="foto perfil de Cristian">
-                    <p>
-                        Cristian<br>
-                        <span>Nam libero tempore</span>
-                    </p>
-                </div>
-
-                <!--Contacto #5-->
-                <div class="contact">
-                    <img class="foto_perfil" src="./assets/img/Screen Shot 2018-11-28 at 15.32.44.jpg" alt="foto perfil de María José">
-                    <p>
-                        María José<br>
-                    
-                        <span>impedit quo minus id</span>
-                    </p>
-                </div>
-
-                <!--Contacto #6-->
-                <div class="contact">
-                    <img class="foto_perfil" src="./assets/img/Screen Shot 2018-11-28 at 15.31.09.jpg" alt="foto perfil de Gonzalo">
-                    <p>
-                        Gonzalo<br>
-                        <span>At vero eos et accusa</span>
-                    </p>
-                </div>
-
-                <!--Contacto #7-->
-                <div class="contact">
-                    <img class="foto_perfil" src="./assets/img/Screen Shot 2018-11-28 at 15.32.16.jpg" alt="foto perfil de Juan Pablo">
-                    <p>
-                        Juan Pablo<br>
-                    <span>necessitatibus saepe</span>
-                    </p>
-                </div>
-
-                <!--Contacto #8-->
-                <div class="contact">
-                    <img class="foto_perfil" src="./assets/img/Screen Shot 2018-11-28 at 15.30.54.jpg" alt="foto perfil de Alberto">
-                    <p>
-                        Alberto<br>
-                    <span>blanditiis praesentium</span>
-                    </p>
-                </div>
-            </div>
+            <!--icono de barra de menu-->
+            <i class="iconos fa-solid fa-bars"></i>
+          </div>
         </div>
 
-
-        <!-- Sección principal -->
-        <div class="principal">
-            <div class="principal_cuerpo">
-                <div class="principal_logo">
-                    <img src="./assets/img/hand.png" alt="Logo">
-                </div>
-
-                <div class="principal_texto">
-                    <h2>Comienza el Networking</h2>
-                    <p>
-                        Presiona el botón <b>“Nuevo chat”</b> para comenzar a crear nuevas redes de contacto para tu empresa o emprendimiento.
-                    </p>
-                </div>
-            </div>
+        <div class="contactos_nuevo_chat">
+          <div class="contenedor">
+            <p class="new_chat">Nuevo Chat</p>
+          </div>
         </div>
+
+        <div class="contactos_contactos">
+          <!--Contacto #1-->
+          <div class="contact">
+            <img
+              class="foto_perfil"
+              src="./assets/img/Screen Shot 2018-11-28 at 15.27.14.jpg"
+              alt="foto perfil de Juanita"
+            />
+            <p>
+              Juanita<br />
+              <span>At vero eos et accusa</span>
+            </p>
+          </div>
+          <!--Contacto #2-->
+          <div class="contact">
+            <img
+              class="foto_perfil"
+              src="./assets/img/Screen Shot 2018-11-28 at 15.32.16.jpg"
+              alt="foto perfil de Alberto"
+            />
+            <p>
+              Alberto<br />
+              <span>blanditiis praesentium</span>
+            </p>
+          </div>
+
+          <!--Contacto #3-->
+          <div class="contact">
+            <img
+              class="foto_perfil"
+              src="./assets/img/Screen Shot 2018-11-28 at 15.30.34.jpg"
+              alt="foto perfil de Ignacio"
+            />
+            <p>
+              Ignacio<br />
+              <span>officiis debitis aut</span>
+            </p>
+          </div>
+
+          <!--Contacto #4-->
+          <div class="contact">
+            <img
+              class="foto_perfil"
+              src="./assets/img/Screen Shot 2018-11-28 at 15.28.30.jpg"
+              alt="foto perfil de Cristian"
+            />
+            <p>
+              Cristian<br />
+              <span>Nam libero tempore</span>
+            </p>
+          </div>
+
+          <!--Contacto #5-->
+          <div class="contact">
+            <img
+              class="foto_perfil"
+              src="./assets/img/Screen Shot 2018-11-28 at 15.32.44.jpg"
+              alt="foto perfil de María José"
+            />
+            <p>
+              María José<br />
+
+              <span>impedit quo minus id</span>
+            </p>
+          </div>
+
+          <!--Contacto #6-->
+          <div class="contact">
+            <img
+              class="foto_perfil"
+              src="./assets/img/Screen Shot 2018-11-28 at 15.31.09.jpg"
+              alt="foto perfil de Gonzalo"
+            />
+            <p>
+              Gonzalo<br />
+              <span>At vero eos et accusa</span>
+            </p>
+          </div>
+
+          <!--Contacto #7-->
+          <div class="contact">
+            <img
+              class="foto_perfil"
+              src="./assets/img/Screen Shot 2018-11-28 at 15.32.16.jpg"
+              alt="foto perfil de Juan Pablo"
+            />
+            <p>
+              Juan Pablo<br />
+              <span>necessitatibus saepe</span>
+            </p>
+          </div>
+
+          <!--Contacto #8-->
+          <div class="contact">
+            <img
+              class="foto_perfil"
+              src="./assets/img/Screen Shot 2018-11-28 at 15.30.54.jpg"
+              alt="foto perfil de Alberto"
+            />
+            <p>
+              Alberto<br />
+              <span>blanditiis praesentium</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sección principal -->
+      <div class="principal">
+        <div class="principal_cuerpo">
+          <div class="principal_logo">
+            <img src="./assets/img/hand.png" alt="Logo" />
+          </div>
+
+          <div class="principal_texto">
+            <h2>Comienza el Networking</h2>
+            <p>
+              Presiona el botón <b>“Nuevo chat”</b> para comenzar a crear nuevas
+              redes de contacto para tu empresa o emprendimiento.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
 
-
-
-
-
-
-    <script src="https://kit.fontawesome.com/01a546307e.js" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/01a546307e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
